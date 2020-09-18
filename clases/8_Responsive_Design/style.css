@@ -1,0 +1,35 @@
+body{ 
+    background-image: url(./assets/iPad\ Pro\ 11_\ -\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: bold;
+}
+ul{ 
+    display: flex;
+    flex-direction: row;
+}
+li{ 
+    margin-right: 15px;
+}
+
+main{ 
+display: flex;
+justify-content: center;
+}
+
+summary{ 
+    display: flex;
+    flex-direction: column;
+}
+.sexy-unicorn{ 
+  height: 100px;
+  width: 100px;
+}
+.btn-try{ 
+    height: 50px;
+    width: 50px;
+}

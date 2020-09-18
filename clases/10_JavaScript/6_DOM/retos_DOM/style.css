@@ -1,0 +1,33 @@
+.contenedor{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(209, 17, 17, 0.582);
+}
+.imagen{ 
+    width: 540px;
+    height: 440px;
+}
+.btn{ 
+    border-radius: 100px;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    width: 150px;
+    border: none;
+    font-size: 28px;
+    font-family: sans-serif;
+
+}
+.btn:hover{ 
+    background-color: green;
+    color: red;
+}
+.cont-lista{ 
+  display: flex;
+  justify-content: center;
+}
+
+li{ 
+    font-size: 80px;
+}

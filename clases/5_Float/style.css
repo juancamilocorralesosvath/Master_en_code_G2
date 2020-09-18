@@ -1,0 +1,19 @@
+.caja{ 
+    width: 100px;
+    height: 100px;
+    background-color: thistle;
+    font-size: 20px;
+}
+.derecha{ 
+    float: right;
+    background-color: tomato;
+}
+.izquierda{ 
+    float: left;
+    background-color: greenyellow;
+}
+.parrafo{
+    background-color: violet; 
+    width: 100px;
+    clear: both;
+}

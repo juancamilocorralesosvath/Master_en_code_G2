@@ -1,0 +1,68 @@
+html{ 
+    background: url(https://walli.quosmos.com/files/thumbs/6/e/d/6ed2abfddad40e20d1ebd01868ca2163a71e84c7/polygon2square__800_800.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header{ 
+    display: flex;
+    justify-content: flex-end;
+}
+.texts{ 
+    margin-left: 15px;
+    margin-top: 20px;
+} 
+.father{ 
+    display: flex;
+    flex-direction: column;
+}
+.img-cont{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar-cont{ 
+    display: flex;
+    justify-content: center;
+} 
+input{ 
+    width: 700px;
+    height: 50px;
+    border-radius: 100px;
+    border: solid white;
+}
+.google{ 
+  height: 200px;
+  width: 600px;
+}
+.circles-cont{ 
+    margin-top: 100px;
+    margin-left: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img{
+
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.img > img{ 
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    display: block;
+    border-radius: 300px;
+    border: solid white 5px;
+    background-color: white;
+}
+span{ 
+    text-align: center;
+    margin-left: 35px;
+    color: white;
+}
