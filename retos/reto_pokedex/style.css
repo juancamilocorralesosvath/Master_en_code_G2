@@ -1,10 +1,14 @@
+body{ 
+    background-color: black;
+}
+
 .myDiv{ 
     background-color: #F2F2F2;
     border-radius: 10px;
 }
-.card{ 
+/* .card{ 
     width: 18rem;   
-}
+} */
 .card:hover{ 
     animation: bounce 0.7s linear;
 }
@@ -63,18 +67,6 @@
 .fairy{ 
     background-color: #fdb9e9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes bounce{ 
     20%, 50%, 80%, to{
         transform: translateY(0);
